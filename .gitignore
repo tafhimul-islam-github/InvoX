@@ -1,0 +1,22 @@
+# Composer dependencies
+/vendor/
+
+# Local sensitive configuration files
+email_config.php
+chatbot_config.php
+.env
+.env.local
+
+# Application logs
+/logs/*.log
+
+# Generated PDF invoices and uploads
+/Invoices/*.pdf
+
+# IDE and OS metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
